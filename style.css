@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  background-color: #dad7cd;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  text-align: center;
+  font-size: 30px;
+  color: #344e41;
+}
