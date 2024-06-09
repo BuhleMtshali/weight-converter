@@ -14,13 +14,16 @@ input {
   border: 3px solid #344e41;
   border-radius: 20px;
 }
+input[type="number"] {
+  font-size: 18px;
+}
 .material-symbols-outlined {
   height: 40px;
   width: 40px;
 }
 ::placeholder {
   color: #344e41;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   font-style: italic;
 }
@@ -35,4 +38,13 @@ input {
 #submit:hover {
   background-color: #344e41;
   color: white;
+}
+
+#weight-pounds {
+  color: #8d0801;
+  font-weight: 600;
+}
+#weight {
+  color: #344e41;
+  font-weight: bold;
 }

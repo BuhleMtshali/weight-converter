@@ -22,9 +22,11 @@
         Weight Converter
         <span class="material-symbols-outlined"> monitor_weight_loss </span>
       </h1>
-      <input type="number" placeholder="Enter weight..." required />
+      <input type="number" placeholder="Enter weight..." required id="input" />
       <input type="submit" id="submit" />
-      <p id="weight-pounds">Your Weight in pounds is:</p>
+      <p id="weight-pounds">
+        Your Weight in pounds is:<span id="weight"></span>
+      </p>
     </div>
     <script src="index.js"></script>
   </body>
