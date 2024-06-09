@@ -4,7 +4,7 @@ let weightElement = document.querySelector("#weight");
 function convertNow(event) {
   event.preventDefault();
   let newWeight = inputElement.value * 2.205;
-  weightElement.textContent = " " + Math.floor(newWeight) + "kg";
+  weightElement.textContent = " " + Math.floor(newWeight) + " " + "pounds";
   inputElement.value = "";
 }
 
